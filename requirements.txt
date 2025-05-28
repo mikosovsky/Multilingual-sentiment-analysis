@@ -1,5 +1,4 @@
 datasets
 transformers
 torch
-'numpy<2'
 accelerate
