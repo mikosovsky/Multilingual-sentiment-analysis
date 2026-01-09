@@ -38,22 +38,26 @@ The project also experiments with BERT-based multilingual models (`bert-base-mul
 ## 🛠️ Installation
 
 ### Prerequisites
-- Python 3.7+
+- Python 3.8+
 - pip package manager
 
 ### Install Dependencies
+
+#### Core Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Required packages:
+This installs the essential packages:
 - `datasets` - For loading and processing datasets
 - `transformers` - Hugging Face transformers library
 - `torch` - PyTorch deep learning framework
 - `accelerate` - For distributed training
 
-### Additional Dependencies (for full notebook execution)
+#### Additional Dependencies (for full notebook execution)
+
+For running the complete notebooks with all visualizations and analysis features:
 
 ```bash
 pip install langdetect scikit-learn seaborn pandas matplotlib wordcloud nltk spacy jieba
